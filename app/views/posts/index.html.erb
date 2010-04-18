@@ -1,0 +1,5 @@
+<% for post in @posts %>
+  <h2><%= link_to post, post %></h2>
+  
+  <%= post.text %>
+<% end %>
