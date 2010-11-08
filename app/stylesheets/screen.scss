@@ -28,6 +28,7 @@ body.bp {
   // Or leave it in if you're happy with how blueprint looks out-of-the-box
 }
 
+
 form.bp {
   @include blueprint-form; }
 
@@ -49,6 +50,7 @@ body.two-col {
     @include column($content-columns, true); } }
 
 
+
 body.two-col {
   background-color: #dedede;
   
@@ -57,7 +59,6 @@ body.two-col {
     
     h1 {
       float: right;
-      font-family: Georgia;
       padding-right: 18px;
       text-shadow: #666565 3px 2px 4px;
     }
@@ -91,8 +92,30 @@ body.two-col {
       margin: 0;
       
       li {
-        padding: 2px;
+        padding: 0px;
+        font-family: Georgia;
+        font-size: 1em;
       }
     }
   }
+}
+
+#sidebar {
+  li {
+  }
+}
+
+body.bp {
+   h2 {
+    font-size: 2.7em;
+    
+    .posted-at {
+      color: grey;
+      font-size: 0.6em;
+    }
+  }
+  
+  p {
+    font-size: 1.5em;
+  } 
 }

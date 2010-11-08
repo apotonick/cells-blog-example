@@ -26,8 +26,8 @@
             .ui-corner-all.ui-widget-header
               Recent Posts
             %ul
-              %li Cells rocks
-              %li More about Components
+              - for p in Post.recent
+                %li #{link_to p.title, p}
         
       
       #content

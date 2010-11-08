@@ -136,7 +136,7 @@ body.bp form.inline p {
 /* line 22, ../../../app/stylesheets/screen.scss */
 body.bp {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Georgia;
   color: #333333;
   font-size: 75%;
 }
@@ -503,14 +503,14 @@ form.bp textarea {
   height: 250px;
 }
 
-/* line 36, ../../../app/stylesheets/screen.scss */
+/* line 37, ../../../app/stylesheets/screen.scss */
 body.two-col #container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 38, ../../../app/stylesheets/screen.scss */
+/* line 39, ../../../app/stylesheets/screen.scss */
 body.two-col #header, body.two-col #footer {
   display: inline;
   float: left;
@@ -521,7 +521,7 @@ body.two-col #header, body.two-col #footer {
 * html body.two-col #header, * html body.two-col #footer {
   overflow-x: hidden;
 }
-/* line 40, ../../../app/stylesheets/screen.scss */
+/* line 41, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar {
   display: inline;
   float: left;
@@ -532,7 +532,7 @@ body.two-col #sidebar {
 * html body.two-col #sidebar {
   overflow-x: hidden;
 }
-/* line 44, ../../../app/stylesheets/screen.scss */
+/* line 45, ../../../app/stylesheets/screen.scss */
 body.two-col #content {
   display: inline;
   float: left;
@@ -544,31 +544,30 @@ body.two-col #content {
   overflow-x: hidden;
 }
 
-/* line 52, ../../../app/stylesheets/screen.scss */
+/* line 54, ../../../app/stylesheets/screen.scss */
 body.two-col {
   background-color: #dedede;
 }
-/* line 55, ../../../app/stylesheets/screen.scss */
+/* line 57, ../../../app/stylesheets/screen.scss */
 body.two-col #header {
   padding-top: 36px;
 }
-/* line 58, ../../../app/stylesheets/screen.scss */
+/* line 60, ../../../app/stylesheets/screen.scss */
 body.two-col #header h1 {
   float: right;
-  font-family: Georgia;
   padding-right: 18px;
   text-shadow: #666565 3px 2px 4px;
 }
-/* line 65, ../../../app/stylesheets/screen.scss */
+/* line 66, ../../../app/stylesheets/screen.scss */
 body.two-col #header img {
   padding-left: 40px;
 }
-/* line 70, ../../../app/stylesheets/screen.scss */
+/* line 71, ../../../app/stylesheets/screen.scss */
 body.two-col #container {
   background-color: white;
   height: 100%;
 }
-/* line 78, ../../../app/stylesheets/screen.scss */
+/* line 79, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar .item {
   padding-left: 40px;
   display: inline;
@@ -580,18 +579,34 @@ body.two-col #sidebar .item {
 * html body.two-col #sidebar .item {
   overflow-x: hidden;
 }
-/* line 82, ../../../app/stylesheets/screen.scss */
+/* line 83, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar .item .ui-widget-header {
   margin: 1px;
   padding: 3px;
   text-align: center;
 }
-/* line 89, ../../../app/stylesheets/screen.scss */
+/* line 90, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul {
   padding-left: 1.3em;
   margin: 0;
 }
-/* line 93, ../../../app/stylesheets/screen.scss */
+/* line 94, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul li {
-  padding: 2px;
+  padding: 0px;
+  font-family: Georgia;
+  font-size: 1em;
+}
+
+/* line 109, ../../../app/stylesheets/screen.scss */
+body.bp h2 {
+  font-size: 2.7em;
+}
+/* line 112, ../../../app/stylesheets/screen.scss */
+body.bp h2 .posted-at {
+  color: grey;
+  font-size: 0.6em;
+}
+/* line 118, ../../../app/stylesheets/screen.scss */
+body.bp p {
+  font-size: 1.5em;
 }

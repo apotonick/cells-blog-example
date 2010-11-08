@@ -1,6 +1,6 @@
 <h2><%= @post.title %></h2>
 
-<%= @post.text %>
+<%= t @post.text %>
 
 <%# if logged_in? %>
   <%= link_to "New Comment", new_post_comment_path(@post) %>

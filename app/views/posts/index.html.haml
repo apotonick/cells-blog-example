@@ -1,0 +1,12 @@
+%p
+  We have #{Post.count} total posts, isn't that great? During the past days, we blogged about the following bullshit:
+
+- for post in @posts
+  %h2
+    = link_to post, post
+    
+    .posted-at
+      posted #{post.created_at}
+     
+  
+  = t post.text
