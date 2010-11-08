@@ -4,6 +4,8 @@ gem 'rails', '3.0.1'
 gem 'compass'
 gem 'haml'
 
+gem 'RedCloth', :require => "redcloth"
+
 #group :test do
 #  gem 'cucumber-rails'
 #  gem 'capybara'
