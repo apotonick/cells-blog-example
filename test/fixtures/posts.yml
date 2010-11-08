@@ -1,0 +1,37 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: Post one
+  text: This is post number one, great!
+  created_at: 2010-11-08
+  id: 1
+
+two:
+  title: Post two
+  text: This is post number 2, great!
+  created_at: 2010-11-09
+  id: 2
+  
+three:
+  title: Post 3
+  text: This is post number 3, great!
+  created_at: 2010-11-10
+  id: 3
+  
+four:
+  title: Post 4
+  text: This is post number 4, great!
+  created_at: 2010-11-11
+  id: 4
+  
+five:
+  title: Post 5
+  text: This is post number 5, great!
+  created_at: 2010-11-12
+  id: 5
+  
+six:
+  title: Post 6
+  text: This is post number 6, great!
+  created_at: 2010-11-13
+  id: 6

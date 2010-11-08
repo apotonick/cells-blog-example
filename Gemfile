@@ -1,14 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0.beta3'
-gem 'authlogic', :git => "git://ryanbigg.local/authlogic.git"
+gem 'rails', '3.0.1'
+gem 'compass'
+gem 'haml'
 
-group :test do
-  gem 'cucumber-rails'
-  gem 'capybara'
-  gem 'rspec-rails', '2.0.0.beta.6'
-  gem 'launchy'
-end
+#group :test do
+#  gem 'cucumber-rails'
+#  gem 'capybara'
+#  gem 'rspec-rails', '2.0.0.beta.6'
+#  gem 'launchy'
+#end
   
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
