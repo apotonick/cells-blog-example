@@ -567,46 +567,47 @@ body.two-col #container {
   background-color: white;
   height: 100%;
 }
-/* line 79, ../../../app/stylesheets/screen.scss */
-body.two-col #sidebar .item {
+/* line 76, ../../../app/stylesheets/screen.scss */
+body.two-col #sidebar {
   padding-left: 40px;
   display: inline;
   float: left;
   margin-right: 10px;
   width: 230px;
+  padding-right: 40px;
 }
 /* line 139, ../../../../../.rvm/gems/ruby-1.9.2-preview3/gems/compass-0.10.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.two-col #sidebar .item {
+* html body.two-col #sidebar {
   overflow-x: hidden;
 }
-/* line 83, ../../../app/stylesheets/screen.scss */
-body.two-col #sidebar .item .ui-widget-header {
+/* line 81, ../../../app/stylesheets/screen.scss */
+body.two-col #sidebar .ui-widget-header {
   margin: 1px;
   padding: 3px;
   text-align: center;
 }
-/* line 90, ../../../app/stylesheets/screen.scss */
+/* line 87, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul {
   padding-left: 1.3em;
   margin: 0;
 }
-/* line 94, ../../../app/stylesheets/screen.scss */
+/* line 91, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul li {
   padding: 0px;
   font-family: Georgia;
   font-size: 1em;
 }
 
-/* line 109, ../../../app/stylesheets/screen.scss */
+/* line 106, ../../../app/stylesheets/screen.scss */
 body.bp h2 {
   font-size: 2.7em;
 }
-/* line 112, ../../../app/stylesheets/screen.scss */
+/* line 109, ../../../app/stylesheets/screen.scss */
 body.bp h2 .posted-at {
   color: grey;
   font-size: 0.6em;
 }
-/* line 118, ../../../app/stylesheets/screen.scss */
+/* line 115, ../../../app/stylesheets/screen.scss */
 body.bp p {
   font-size: 1.5em;
 }

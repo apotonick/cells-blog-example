@@ -21,14 +21,15 @@
         %h1 The Incredible Cells Blog
       
       #sidebar
-        .item
-          .ui-corner-all.ui-widget.ui-widget-content
-            .ui-corner-all.ui-widget-header
-              Recent Posts
-            %ul
-              - for p in Post.recent
-                %li #{link_to p.title, p}
-        
+        render_cell :posts, :display
+          
+          
+          
+    
+    %a(href="/posts/feed")
+      Subscribe us!
+      = image_tag("feed-icon-14x14.png")
+  
       
       #content
         = flash[:notice]

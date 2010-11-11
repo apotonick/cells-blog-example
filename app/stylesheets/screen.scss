@@ -74,17 +74,14 @@ body.two-col {
   }
   
   #sidebar {
-
+    @include prepend(1);
+    @include column(6);
+    @include append(1);
     
-    .item {
-      @include prepend(1);
-      @include column(6);
-    
-      .ui-widget-header {
-        margin: 1px;
-        padding: 3px;
-        text-align: center;
-      }
+    .ui-widget-header {
+      margin: 1px;
+      padding: 3px;
+      text-align: center;
     }
     
     ul {

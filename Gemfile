@@ -5,13 +5,14 @@ gem 'compass'
 gem 'haml'
 
 gem 'RedCloth', :require => "redcloth"
+gem 'cells'
 
-#group :test do
+group :test do
 #  gem 'cucumber-rails'
-#  gem 'capybara'
+  gem 'capybara'
 #  gem 'rspec-rails', '2.0.0.beta.6'
 #  gem 'launchy'
-#end
+end
   
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
