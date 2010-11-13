@@ -586,28 +586,44 @@ body.two-col #sidebar .ui-widget-header {
   padding: 3px;
   text-align: center;
 }
-/* line 87, ../../../app/stylesheets/screen.scss */
+/* line 90, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul {
   padding-left: 1.3em;
   margin: 0;
 }
-/* line 91, ../../../app/stylesheets/screen.scss */
+/* line 94, ../../../app/stylesheets/screen.scss */
 body.two-col #sidebar ul li {
   padding: 0px;
   font-family: Georgia;
   font-size: 1em;
 }
 
-/* line 106, ../../../app/stylesheets/screen.scss */
+/* line 109, ../../../app/stylesheets/screen.scss */
 body.bp h2 {
   font-size: 2.7em;
 }
-/* line 109, ../../../app/stylesheets/screen.scss */
+/* line 112, ../../../app/stylesheets/screen.scss */
 body.bp h2 .posted-at {
   color: grey;
   font-size: 0.6em;
 }
-/* line 115, ../../../app/stylesheets/screen.scss */
+/* line 118, ../../../app/stylesheets/screen.scss */
 body.bp p {
   font-size: 1.5em;
+}
+/* line 122, ../../../app/stylesheets/screen.scss */
+body.bp .css1 {
+  font-size: 1.0em;
+}
+/* line 123, ../../../app/stylesheets/screen.scss */
+body.bp .css2 {
+  font-size: 1.2em;
+}
+/* line 124, ../../../app/stylesheets/screen.scss */
+body.bp .css3 {
+  font-size: 1.4em;
+}
+/* line 125, ../../../app/stylesheets/screen.scss */
+body.bp .css4 {
+  font-size: 1.6em;
 }

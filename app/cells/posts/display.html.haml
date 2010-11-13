@@ -1,6 +1,13 @@
 .ui-corner-all.ui-widget.ui-widget-content
   .ui-corner-all.ui-widget-header
     Recent Posts
+    - if @tag
+      for '<em>#{@tag}</em>'
+  
+  = render :state => :tag_cloud
+  
+  %hr
+    
   %ul
-    - for p in Post.recent
+    - for p in @posts
       %li #{link_to p.title, p}

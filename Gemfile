@@ -6,6 +6,7 @@ gem 'haml'
 
 gem 'RedCloth', :require => "redcloth"
 gem 'cells'
+gem 'acts-as-taggable-on'
 
 group :test do
 #  gem 'cucumber-rails'

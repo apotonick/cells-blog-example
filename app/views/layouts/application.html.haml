@@ -21,15 +21,7 @@
         %h1 The Incredible Cells Blog
       
       #sidebar
-        render_cell :posts, :display
-          
-          
-          
-    
-    %a(href="/posts/feed")
-      Subscribe us!
-      = image_tag("feed-icon-14x14.png")
-  
+        = render_cell :posts, :display
       
       #content
         = flash[:notice]

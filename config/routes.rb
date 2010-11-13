@@ -1,4 +1,6 @@
 Blog::Application.routes.draw do |map|
+  #match ":controller/tag", :to => "posts#tag"
+  
   resources :posts do
     resources :comments
   end
@@ -8,4 +10,6 @@ Blog::Application.routes.draw do |map|
   resources :user_sessions
   
   match 'login' => "user_sessions#new"
+  
+  
 end
