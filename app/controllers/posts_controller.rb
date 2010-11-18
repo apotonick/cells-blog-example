@@ -1,5 +1,10 @@
 class PostsController < ApplicationController
-  #before_filter :login_required, :except => [:index, :show]
+  include Apotomo::Rails::ControllerMethods
+  
+  has_widgets do |root|
+    root << widget(:posts_widget, 'sidebar-posts')
+  end
+  
   
   def index
     @posts = Post.recent

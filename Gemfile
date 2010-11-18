@@ -6,6 +6,7 @@ gem 'haml'
 
 gem 'RedCloth', :require => "redcloth"
 gem 'cells'
+gem 'apotomo', "1.0.0"
 gem 'acts-as-taggable-on'
 
 group :test do
