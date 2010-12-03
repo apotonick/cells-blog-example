@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '3.0.3'
 gem 'compass'
 gem 'haml'
 
 gem 'RedCloth', :require => "redcloth"
 gem 'cells'
-gem 'apotomo', "1.0.0"
+gem 'apotomo', "1.0.1"
 gem 'acts-as-taggable-on'
 
 group :test do
