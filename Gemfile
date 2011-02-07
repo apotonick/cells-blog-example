@@ -1,18 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '~>3.0'
 gem 'compass'
 gem 'haml'
 
 gem 'RedCloth', :require => "redcloth"
-gem 'cells'
+gem 'cells', "~>3.5"
 gem 'acts-as-taggable-on'
 
 group :test do
-#  gem 'cucumber-rails'
   gem 'capybara'
-#  gem 'rspec-rails', '2.0.0.beta.6'
-#  gem 'launchy'
 end
   
 # Bundle edge Rails instead:
