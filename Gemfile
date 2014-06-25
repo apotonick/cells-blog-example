@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '~>3.0'
+
+gem 'authlogic'
+
 gem 'compass'
 gem 'haml'
 
